@@ -3,6 +3,8 @@
 # Specify the Azure provider
 provider "azurerm" {
   features {}
+
+subscription_id = "<YOUR_SUBSCRIPTION_ID>"
 }
 
 # Define variables for resource customization
